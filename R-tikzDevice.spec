@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 3)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-filehash 
-Requires:         R-testthat R-evaluate R-stringr R-ggplot2 R-maps 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-filehash
-BuildRequires:    R-testthat R-evaluate R-stringr R-ggplot2 R-maps 
+Requires:         R-filehash R-testthat R-evaluate R-stringr R-ggplot2 R-maps
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-filehash R-testthat R-evaluate R-stringr R-ggplot2 R-maps
 
 %description
 The TikZ device enables LaTeX-ready output from R graphics functions. This
