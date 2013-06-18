@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.6.2
-Release:          1
+Release:          2
 Summary:          A Device for R Graphics Output in PGF/TikZ Format
 Group:            Sciences/Mathematics
 License:          GPL (>= 3)
