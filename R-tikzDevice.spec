@@ -7,7 +7,7 @@ Release:          2
 Summary:          A Device for R Graphics Output in PGF/TikZ Format
 Group:            Sciences/Mathematics
 License:          GPL (>= 3)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-filehash R-testthat R-evaluate R-stringr R-ggplot2 R-maps
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
